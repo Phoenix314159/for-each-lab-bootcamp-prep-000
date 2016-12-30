@@ -1,13 +1,19 @@
 
 function iterativeLog(array){
   array.forEach((element, index, array)=>{
-  console.log(`${index}:${element}`);})
+  console.log(`${index}: ${element}`);
+ })
 }
 
+function iterate(callback){
+  var array = [1,2];
+  array.forEach(callback);
 
 
+  return array;
+}
 
+function doToArray(array,callback){
 
-function iterate(array{
-
+  array.forEach(callback);
 }
